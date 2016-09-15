@@ -12,23 +12,29 @@
 <body>
 <!-- Below is the navigation bar top of page -->
   <header><h1><a href="http://www.gregslist.com/home">Greg's List</a></h1>
-    <nav>
+    <nav class="top-navi-position">
 	    <ul class="naviLinksRight">
 			<li><a href="http://www.gregslist.com/post" class="topnavlinks">Post</a></li>
 			<li><a href="http://www.gregslist.com/account" class="topnavlinks">Account</a></li>
 		</ul>
 	</nav>
   </header>
-  <!--this section creates the input and search functionof the site-->
+  <!--this section creates the input and search function bar of the site-->
   <section class="search-section">
   	<form action="#####.php">
   		<label for="search">Search Jobs</label>
-  		<input type="text" id="search" placeholder="Search software jobs">
+  		<input type="text" id="search" placeholder=" Search software jobs">
   		<button type="submit" class="searchButton">
   			<img src="magnifying-glass.png" class="mag-image">
   		</button>
   	</form>
   </section>
+  <!--This is the second nav area, with the option to scroll through search pages from search results-->
+  <nav class="page-scroll">
+  	<a class="page-scroll-button">< prev</a>
+  	<span class="page-number-display">1 to 100 of 179</span>
+  	<a class="page-scroll-button">next ></a>
+  </nav>
  
  <main>
 
