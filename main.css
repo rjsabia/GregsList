@@ -51,3 +51,45 @@ li{
 	margin-left: 15px;
 }
 
+.search-section{
+	margin-bottom: 30px;
+	margin-top: 80px;
+}
+.search-section input{
+	font-family: Arial;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    width: 400px;
+    margin-left: 70px;
+}
+label{
+	display: block; 
+    margin-bottom: 10px;
+    margin-left: 70px;
+	font-size: 17px;
+	font-family: Arial;
+	font-weight: normal;
+	}
+.search-section button{
+	font-size: 17px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+.searchButton{
+	vertical-align: bottom;
+	margin-left: 5px;
+}
+form{
+	display: block;
+    margin-top: 0em;
+}
+.mag-image{
+	height: 100%;
+}
+
